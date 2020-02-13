@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    <item
+        android:id="@+id/first"
+        android:checkable="false"
+        android:icon="@drawable/ic_icon"
+        android:title="Smile!" />
+    <item
+        android:id="@+id/second"
+        android:icon="@drawable/ic_preggo"
+        android:title="Yeet" />
+    <item
+        android:id="@+id/third"
+        android:icon="@drawable/ic_sentiment_very_dissatisfied_black_24dp"
+        android:title="More...">
+        <menu>
+            <item
+                android:id="@+id/sub1"
+                android:title="Too bad" />
+            <item
+                android:id="@+id/sub2"
+                android:title="Get Rekt" />
+
+        </menu>
+    </item>
+</menu>
